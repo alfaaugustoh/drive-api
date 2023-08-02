@@ -24,7 +24,7 @@ const drive = google.drive({
   auth: oauth2Client,
 });
 
-const directoryPath = "C:\\Users\\augus\\OneDrive\\Documentos\\MiniMe";
+const directoryPath = "Type\\your\\path\\here";
 const filePath = path.join(__dirname, directoryPath);
 
 async function uploadFiles() {
